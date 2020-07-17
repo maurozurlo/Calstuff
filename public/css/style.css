@@ -1,0 +1,13 @@
+html{
+    background-color: #f7f7f7;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#calendar{
+    width: 650px;
+    margin: 0 auto;
+    overflow: hidden;
+}
