@@ -8,11 +8,13 @@
         calendar.render();
 
         calendar.on('dateClick', function (info) {
-            alert('clicked on ' + info.dateStr);
+            document.getElementById('test').innerHTML = info.dateStr;
+            document.getElementById('genlink').setAttribute("href", `/cal?date=${info.dateStr}`);
         });
     });
-
 </script>
 
 <h1>Hello World</h1>
 <div id='calendar'></div>
+<p>Selected date is: <span id="test"></span></p>
+<a href="#" id="genlink">Generate calendar file</a>

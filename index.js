@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, '/public/')))
 
 // Routes
 app.use('/', require('./routes/index'))
-app.use('/api', require('./routes/icalgen'))
+app.use('/', require('./routes/icalgen'))
 
 const PORT = process.env.PORT || 5000
 

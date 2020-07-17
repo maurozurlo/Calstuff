@@ -8,7 +8,4 @@ router.get('/', (req, res) => {
     res.render('index')
 })
 
-// @desc genCalendar
-
-
 module.exports = router

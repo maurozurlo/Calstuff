@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//sebbo.net//ical-generator//EN
+NAME:iCal test
+X-WR-CALNAME:iCal test
+BEGIN:VEVENT
+UID:ff1f@undefined
+SEQUENCE:0
+DTSTAMP:20200717T151726Z
+DTSTART;TZID=America/Buenos_Aires:20200717T160000
+DTEND;TZID=America/Buenos_Aires:20200717T160000
+SUMMARY:Example Event
+LOCATION:my room
+DESCRIPTION:It works \;)
+URL;VALUE=URI:https://maurozurlo.com/
+END:VEVENT
+END:VCALENDAR
