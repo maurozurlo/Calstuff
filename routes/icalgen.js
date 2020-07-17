@@ -21,7 +21,7 @@ router.get('/cal', async (req, res) => {
 
 const createIcal = (date) => {
     const cal = ical({ name: 'iCal test' })
-    cal.domain()
+    cal.domain('https://maurozurlo.com/')
     cal.createEvent({
         start: date,
         end: date,
